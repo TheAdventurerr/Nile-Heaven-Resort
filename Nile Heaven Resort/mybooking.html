@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Booking</title>
+<link rel="icon" type="image/x-icon" href="images/nile.ico">
+<link rel="stylesheet" href="CSS/mybookingstyle.css">
+
+</head>
+<body>
+  <h1>My Booking</h1>
+  <p>Here you can view and edit your bookings. To do so, simply enter your last name and reservation number.</p>
+  <form action="#">
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="last-name" required>
+    <label for="reservation-number">Reservation Number:</label>
+    <input type="text" id="reservation-number" name="reservation-number" required>
+    <button type="submit">View Booking</button>
+  </form>
+  <div class="booking-info">
+    <button type="button">Cancel Booking</button>
+  </div>
+  <div class="review-form">
+    <h3>How was your stay? Please leave a review.</h3>
+    <textarea name="review" id="review" cols="30" rows="10"></textarea>
+    <button type="submit">Submit Review</button>
+  </div>
+</body>
+</html>
